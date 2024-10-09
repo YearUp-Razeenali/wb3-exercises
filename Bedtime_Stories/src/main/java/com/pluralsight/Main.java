@@ -26,7 +26,10 @@ public class Main {
         }
         catch (Exception e){
             System.out.println("Whoops, you spelled it wrong!");
+            //System.out.println(e.getMessage());
         }
+
+        scanner.close();
 
     }
 
